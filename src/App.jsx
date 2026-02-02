@@ -46,7 +46,7 @@ const DATA = {
       tag: "SaaS Platform",
       desc: "Real-time tournament dashboard with live scoring and admin controls.",
       tech: ["React", "Node.js", "MongoDB"],
-      image: "src/assets/cricket.png",
+      image: "public/images/cricket.png",
       link: "https://github.com/Kartikcc123/Cricket-Event-Management-App.git"
     },
     {
@@ -54,7 +54,7 @@ const DATA = {
       tag: "Client Success",
       desc: "Premium landing page that increased digital reservations by 40%.",
       tech: ["HTML", "CSS", "JavaScript", "UI/UX", "SEO"],
-      image: "src/assets/sujas.jpeg",
+      image: "public/images/sujas.jpeg",
       link: "https://sujascollegeofpharmacy.in.net/"
     },
     {
@@ -62,7 +62,7 @@ const DATA = {
       tag: "AI Project",
       desc: "AI model predicting prompts and generating high-quality images.",
       tech: ["Vite + React", "Framer Motion", "Tailwind CSS"],
-      image: "src/assets/image.png",
+      image: "public/images/image.png",
       link: "https://github.com/Kartikcc123/imagify.git"
     },
     {
@@ -70,7 +70,7 @@ const DATA = {
       tag: "Advanced Tool",
       desc: "Gamified habit tracker with streak logic and state management.",
       tech: ["Python", "Vite", "MERN Stack"],
-      image: "src/assets/video.png"
+      image: "public/images/video.png"
     }
   ]
 };
