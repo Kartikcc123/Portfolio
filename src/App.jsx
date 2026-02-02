@@ -226,7 +226,7 @@ const Navbar = () => {
         {/* VIEW RESUME BUTTON */}
         <div className="hidden md:block">
           <a 
-            href="src/assets/Kartik Agarwal.pdf" 
+            href="public/resume/Kartik Agarwal.pdf" 
             target="_blank" 
             rel="noopener noreferrer"
             className="group relative inline-flex items-center gap-2 px-6 py-2.5 bg-white text-black text-sm font-bold rounded-full overflow-hidden transition-all hover:bg-cyan-400 hover:scale-105 active:scale-95 shadow-[0_0_20px_rgba(255,255,255,0.2)] hover:shadow-[0_0_30px_rgba(6,182,212,0.6)]"
@@ -269,7 +269,7 @@ const Navbar = () => {
                 </a>
               ))}
               <a 
-                href="src/assets/Kartik Agarwal.pdf" 
+                href="public/resume/Kartik Agarwal.pdf" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 text-lg font-bold text-cyan-400 pt-2"
