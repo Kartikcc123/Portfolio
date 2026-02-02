@@ -46,7 +46,7 @@ const DATA = {
       tag: "SaaS Platform",
       desc: "Real-time tournament dashboard with live scoring and admin controls.",
       tech: ["React", "Node.js", "MongoDB"],
-      image: "public/images/cricket.png",
+      image: "/images/cricket.png",
       link: "https://github.com/Kartikcc123/Cricket-Event-Management-App.git"
     },
     {
@@ -54,7 +54,7 @@ const DATA = {
       tag: "Client Success",
       desc: "Premium landing page that increased digital reservations by 40%.",
       tech: ["HTML", "CSS", "JavaScript", "UI/UX", "SEO"],
-      image: "public/images/sujas.jpeg",
+      image: "/images/sujas.jpeg",
       link: "https://sujascollegeofpharmacy.in.net/"
     },
     {
@@ -62,7 +62,7 @@ const DATA = {
       tag: "AI Project",
       desc: "AI model predicting prompts and generating high-quality images.",
       tech: ["Vite + React", "Framer Motion", "Tailwind CSS"],
-      image: "public/images/image.png",
+      image: "/images/image.png",
       link: "https://github.com/Kartikcc123/imagify.git"
     },
     {
@@ -70,7 +70,7 @@ const DATA = {
       tag: "Advanced Tool",
       desc: "Gamified habit tracker with streak logic and state management.",
       tech: ["Python", "Vite", "MERN Stack"],
-      image: "public/images/video.png"
+      image: "/images/video.png"
     }
   ]
 };
@@ -226,7 +226,7 @@ const Navbar = () => {
         {/* VIEW RESUME BUTTON */}
         <div className="hidden md:block">
           <a 
-            href="/resume/Kartik Agarwal.pdf" 
+            href="/resume/kartik-agarwal.pdf" 
             target="_blank" 
             rel="noopener noreferrer"
             className="group relative inline-flex items-center gap-2 px-6 py-2.5 bg-white text-black text-sm font-bold rounded-full overflow-hidden transition-all hover:bg-cyan-400 hover:scale-105 active:scale-95 shadow-[0_0_20px_rgba(255,255,255,0.2)] hover:shadow-[0_0_30px_rgba(6,182,212,0.6)]"
@@ -269,7 +269,7 @@ const Navbar = () => {
                 </a>
               ))}
               <a 
-                href="/resume/Kartik Agarwal.pdf" 
+                href="/resume/kartik-agarwal.pdf" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 text-lg font-bold text-cyan-400 pt-2"
