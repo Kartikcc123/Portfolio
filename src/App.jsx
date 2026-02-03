@@ -9,11 +9,15 @@ import {
 import { clsx } from "clsx";
 import { twMerge } from "tailwind-merge";
 import emailjs from '@emailjs/browser';
+import cricketImg from './assets/cricket.png';
+import sujasImg from './assets/sujas.jpeg';
+import aiImg from './assets/image.png';
+import videoImg from './assets/video.png';
 
 // --- UTILS ---
 function cn(...inputs) {
   return twMerge(clsx(inputs));
-}
+} 
 
 // --- DATA ---
 const DATA = {
@@ -46,7 +50,7 @@ const DATA = {
       tag: "SaaS Platform",
       desc: "Real-time tournament dashboard with live scoring and admin controls.",
       tech: ["React", "Node.js", "MongoDB"],
-      image: "/images/cricket.png",
+      image: cricketImg,
       link: "https://github.com/Kartikcc123/Cricket-Event-Management-App.git"
     },
     {
@@ -54,7 +58,7 @@ const DATA = {
       tag: "Client Success",
       desc: "Premium landing page that increased digital reservations by 40%.",
       tech: ["HTML", "CSS", "JavaScript", "UI/UX", "SEO"],
-      image: "/images/sujas.jpeg",
+      image: sujasImg,
       link: "https://sujascollegeofpharmacy.in.net/"
     },
     {
@@ -62,7 +66,7 @@ const DATA = {
       tag: "AI Project",
       desc: "AI model predicting prompts and generating high-quality images.",
       tech: ["Vite + React", "Framer Motion", "Tailwind CSS"],
-      image: "/images/image.png",
+      image: aiImg,
       link: "https://github.com/Kartikcc123/imagify.git"
     },
     {
@@ -70,7 +74,7 @@ const DATA = {
       tag: "Advanced Tool",
       desc: "Gamified habit tracker with streak logic and state management.",
       tech: ["Python", "Vite", "MERN Stack"],
-      image: "/images/video.png"
+      image: videoImg
     }
   ]
 };
