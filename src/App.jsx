@@ -9,10 +9,10 @@ import {
 import { clsx } from "clsx";
 import { twMerge } from "tailwind-merge";
 import emailjs from '@emailjs/browser';
-import cricketImg from './assets/cricket.png';
-import sujasImg from './assets/sujas.jpeg';
-import aiImg from './assets/image.png';
-import videoImg from './assets/video.png';
+import cricketImg from '/images/cricket.png';
+import sujasImg from '/images/sujas.jpeg';
+import aiImg from '/images/image.png';
+import videoImg from '/images/video.png';
 
 // --- UTILS ---
 function cn(...inputs) {
